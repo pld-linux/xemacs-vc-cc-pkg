@@ -2,8 +2,8 @@ Summary:	Version Control for ClearCase (UnFree) systems
 Summary(pl):	Kontrola wersji dla systemów ClearCase (nie-wolnych)
 Name:		xemacs-vc-cc-pkg
 %define 	srcname	vc-cc
-Version:	1.16
-Release:	2
+Version:	1.18
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Group(de):	Applikationen/Editors/Emacs
