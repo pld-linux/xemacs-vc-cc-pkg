@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Version Control for ClearCase (UnFree) systems.
 
-%description -l pl 
+%description -l pl
 Kontrola wersji dla systemów ClearCase (nie-wolnych).
 
 %prep
@@ -30,13 +30,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/vc-cc/ChangeLog 
+gzip -9nf lisp/vc-cc/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/vc-cc/ChangeLog.gz 
+%doc lisp/vc-cc/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
