@@ -1,5 +1,5 @@
 Summary:	Version Control for ClearCase (UnFree) systems
-Summary(pl):	Kontrola wersji dla systemów ClearCase (nie-wolnych)
+Summary(pl.UTF-8):   Kontrola wersji dla systemÃ³w ClearCase (nie-wolnych)
 Name:		xemacs-vc-cc-pkg
 %define 	srcname	vc-cc
 Version:	1.22
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Version Control for ClearCase (UnFree) systems.
 
-%description -l pl
-Kontrola wersji dla systemów ClearCase (nie-wolnych).
+%description -l pl.UTF-8
+Kontrola wersji dla systemÃ³w ClearCase (nie-wolnych).
 
 %prep
 %setup -q -c
