@@ -3,12 +3,12 @@ Summary(pl.UTF-8):	Kontrola wersji dla systemów ClearCase (nie-wolnych)
 Name:		xemacs-vc-cc-pkg
 %define 	srcname	vc-cc
 Version:	1.22
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	ee4ce6853773d36dd92b53ce2513fd73
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
